@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Aileron-light';
+  src : url(font/Aileron-thin.ttf);
+}
+
+@font-face {
+  font-family: 'Aileron-Regular';
+  src : url(font/Aileron-regular.ttf);
+}
+
+@font-face {
+  font-family: 'Aileron-Thin';
+  src : url(font/Aileron-thin.ttf);
+}
+
+h1 {
+  color: #5D6842;
+  font-family: 'Aileron-regular', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  opacity: 0.86;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #0F3057;
+  font-size: 28px;
+  font-family: 'Aileron-light', serif;
+  opacity: 0.9;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: #0F3057;
+  font-size: 21px;
+  font-family: 'Aileron-thin', serif;
+  opacity: 0.8;
+  padding-bottom: 10px;
+}
+
+p {
+  color: #0F3057;
+  font-size: 17px;
+  font-family: 'Aileron-thin', serif;
+  opacity: 0.5;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+body {
+    background-image: url(images/hok.jpg);
+    background-size: cover;
+    font-family: 'Aileron-thin', serif;
+    font-weight: 300;
+    opacity: 0.88;
+    color: #0F3057;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+a {
+  color: #5D6842;
+  font-size: 14px;
+  font-family: 'Aileron-thin', serif;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a:hover {
+  color: #5D6842;
+  font-size: 14px;
+  font-family: 'Aileron-thin', serif;
+  opacity: 1;
+}
+
+.icons {
+  font-size: 17px;
+}
+
+.card{
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 1px rgba(0, 0, 30, 1); /* Subtle shadow */
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 17px
+}
+.container {
+  width: 800px;
+  margin: 10px auto;
+}
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.poster img{
+height: 290px;
+width: 215px;
+padding-bottom: 40px;
+}
+
+.profil {
+height: 290px;
+border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline a {
+  font-size: 20px;
+}
+.btn-light {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
